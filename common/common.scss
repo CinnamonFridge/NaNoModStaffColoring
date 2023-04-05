@@ -1,0 +1,18 @@
+:root {
+	--nano-mods-bg: #73ab9b;
+	--nano-mods-fg: #000000;
+	--nano-staff-fg: #000000;
+	--nano-staff-bg: #e2eff3;
+}
+
+
+
+span.chat-message-info__username.is-username.is-moderator > span {
+background-color: var(--nano-mods-bg) !important;
+color: var(--nano-mods-fg) !important;
+}
+
+span.chat-message-info__username.is-username.group--NaNoHQ > span {
+background-color: var(--nano-staff-bg) !important;
+color: var(--nano-staff-fg) !important;
+}
