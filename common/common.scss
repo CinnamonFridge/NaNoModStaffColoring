@@ -7,12 +7,13 @@
 
 
 
-span.chat-message-info__username.is-username.is-moderator > span {
+span.chat-message-info__username.is-moderator > span {
 background-color: var(--nano-mods-bg) !important;
 color: var(--nano-mods-fg) !important;
 }
 
-span.chat-message-info__username.is-username.group--NaNoHQ > span {
+span.chat-message-info__username.is-staff > span {
 background-color: var(--nano-staff-bg) !important;
 color: var(--nano-staff-fg) !important;
 }
+
