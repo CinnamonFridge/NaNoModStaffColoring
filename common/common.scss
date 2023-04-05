@@ -7,13 +7,22 @@
 
 
 
-span.chat-message-info__username.is-moderator > span {
+span.chat-message-info__username.is-staff > span {
 background-color: var(--nano-mods-bg) !important;
 color: var(--nano-mods-fg) !important;
 }
 
-span.chat-message-info__username.is-staff > span {
+span.chat-message-info__username.is-admin > span {
 background-color: var(--nano-staff-bg) !important;
 color: var(--nano-staff-fg) !important;
 }
 
+div.topic-meta-data > div.names.trigger-user-card > span.staff > a {
+background-color: var(--nano-mods-bg) !important;
+color: var(--nano-mods-fg) !important;
+}
+
+div.topic-meta-data > div.names.trigger-user-card > span.admins > a {
+background-color: var(--nano-staff-bg) !important;
+color: var(--nano-staff-fg) !important;
+}
